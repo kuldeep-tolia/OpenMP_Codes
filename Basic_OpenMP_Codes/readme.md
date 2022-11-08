@@ -6,4 +6,9 @@
 -> To compile and run the codes, I have used gcc and gfortran compilers for C and FORTRAN-90 programs, respectively.  
   
 -> Compiling and running a C program:
-- $ gcc -fopenmp file_name.c -lm -o ./output_name.out
+- $ gcc -fopenmp file_name.c -g -Wall -lm -o ./output_name.out
+- $ ./output_name.out <num_thread>
+
+-> Compiling and running a FORTRAN program:  
+- $ gfortran -fopenmp file_name.f90 -g -Wall -o ./output_name.out
+- $ ./output_name.out <num_thread>
