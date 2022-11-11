@@ -5,7 +5,7 @@
 - https://www.openmp.org/
 - https://rookiehpc.github.io/openmp/docs/index.html
 
--> To compile and run the codes, I have used gcc and gfortran compilers for C and FORTRAN-90 programs, respectively.  
+-> To compile and run the codes, I have used gcc and gfortran compilers for C and FORTRAN programs, respectively.  
 -> Compiling and running a C program:  
 - $ gcc -fopenmp file_name.c -g -Wall -lm -o ./output_name.out
 - $ ./output_name.out <num_thread>
