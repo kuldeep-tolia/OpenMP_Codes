@@ -7,5 +7,5 @@ $$\frac{du}{dx} = -tan(x) - x sec^2x$$
 -> The grid size is varied as $\Delta x = 0.01, 0.001$  
 -> The following are the central-difference formulae to compute the first derivative, along with their corresponding truncation errors:
 
-- $2^{nd}$ order accurate:
+- $2^{nd}$ order accurate:  
 $$\left. \frac{du}{dx} \right|_0 = \frac{u_1 - u_{-1}}{ 2 \Delta x}, TE \sim (\Delta x^2)$$
