@@ -4,4 +4,4 @@ Problem Description:
 $$I = \int_{1}^{\pi} \frac{sin(x)}{2x^3} \hspace{1mm} dx$$  
 -> The exact value of the integration $I = 0.198573$.  
 -> The Simpson's rule can be expressed using the following equation:  
-$$I \approx \frac{h}{3} \left( f_0 + f_n + 4 \right)$$
+$$I \approx \frac{h}{3} \left( f_0 + f_n + 4 \left[ f_j \right] \right)$$
