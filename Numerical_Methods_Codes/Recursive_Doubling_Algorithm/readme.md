@@ -6,4 +6,4 @@ using $4^{th}$ order accurate Pade scheme for the interior and $3^{rd}$ order ac
 -> Pade's scheme is given as:  
 $$f'_0 + 2f'_1 = \frac{1}{h} \left( -\frac{5}{2}f_0 + 2f_1 + \frac{1}{2}f_2 \right)$$  
 
-$$f'_{j+1} = 1$$
+$$f'_{j+1} + 4f'_j + f'_{j-1} = 1$$
