@@ -1,7 +1,7 @@
 -> This section has computer programs that implements solution procedures for solving linear and non-linear algebraic equations, ordinary differential equations (ODE) and partial differential equations (PDE).  
 -> Finite Difference Method (FDM) forms the basis of the discretization of the governing equations.  
 -> The programs are parallelized using OpenMP and the speedup performance of the parallelized codes is measured.    
--> To check the syntax/operation of a particular clause/construct, you may refer to the following websites which provides description of each clause/construct:  
+-> To check the syntax/operation of a particular OpenMP clause/construct, you may refer to the following websites which provides description of each clause/construct:  
 - https://www.openmp.org/
 - https://rookiehpc.github.io/openmp/docs/index.html
 
