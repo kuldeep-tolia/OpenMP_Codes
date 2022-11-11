@@ -14,5 +14,6 @@ $$\left. \frac{du}{dx} \right|_{1} = \frac{u_2 - u_0}{2 \Delta x}, TE \sim (\Del
 $$\left. \frac{du}{dx} \right|_2 = \frac{ u_0 - 8u_1 + 8u_3 - u_4}{ 12 \Delta x}, TE \sim (\Delta x^4)$$,  
 
 where $TE$ denotes the truncation error.  
+-> The results are compared with the analytical solution and plotted.  
 
-NOTE: The corresponding $1^{st}$/$2^{nd}$ order accurate finite-difference formulae is used to compute the first derivative near the boundary location nodes.  
+NOTE: The corresponding $1^{st}$ / $2^{nd}$ order accurate finite-difference formulae is used to compute the first derivative near the boundary location nodes.  
