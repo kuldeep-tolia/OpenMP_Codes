@@ -1,5 +1,7 @@
 Problem Description:  
 
+-> The tri-diagonal matrix system obtained from, say, using implicit finite-difference derivative schemes (like Pade's scheme) can be solved using Thomas algorithm. However, Thomas algorithm cannot be parallelized due to the data-carried dependency.  
+-> The recursive doubling algorithm has scope for parallelization as it pushes out the sub/super diagonals out with each phase-step. After the end of the elimination phase, we have a diagonal matrix in hand which can easily be solved for. Hence, recursive doubling algorithm offers partial degree of parallelizm which Thomas algorithm does not provide.  
 -> Consider the calculation of the derivative of the following function,  
 $$f(x) = sin(5x), \hspace{4mm} 0 \leq x \leq 5$$  
 using $4^{th}$ order accurate Pade scheme for the interior and $3^{rd}$ order accurate one-sided Pade scheme near the boundaries.  
