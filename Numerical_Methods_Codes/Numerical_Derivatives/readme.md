@@ -8,4 +8,4 @@ $$\frac{du}{dx} = -tan(x) - x sec^2x$$
 -> The following are the central-difference formulae to compute the first derivative, along with their corresponding truncation errors:
 
 - $2^{nd}$ order accurate:  
-$$\left. \frac{du}{dx} \right|_{0} = \frac{u_{i+1}}{2 \Delta x}, TE \sim (\Delta x^2)$$
+$$\left. \frac{du}{dx} \right|_{0} = \frac{u_1-u_-1}{2 \Delta x}, TE \sim (\Delta x^2)$$
